@@ -4,16 +4,51 @@
     box-sizing: border-box;
 }
 
-img {
+
+h1 {
+    font-size: 3rem;
+}
+
+header {
+    background-color: #a5316b86;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-furret {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.furret-img {
     width: 20vw;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 button {
-    background-color: #A5316B;
     color: white;
+    background-color: #a5316b;
+    width: 20vw;
+    height: 10vh;
+    font-size: 20px;
+    font-weight: bold;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
+}
+
+p {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 50px;
+}
+
+.texto {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
 }
