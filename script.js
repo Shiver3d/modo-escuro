@@ -32,11 +32,11 @@ btn.addEventListener("click", () => {
     });
   } else {
     // Modo Escuro
-    document.body.style.background = "url(https://i.pinimg.com/originals/36/0f/9d/360f9d1b1d256fbbbe8238ab25198f22.gif) no-repeat center center fixed"; 
+    document.body.style.background = "url('img/360f9d1b1d256fbbbe8238ab25198f22(1).gif') no-repeat center center fixed"; 
     document.body.style.color = "white";
     document.body.style.backgroundSize = "cover";
     textos.forEach(texto => {
-      texto.style.backgroundColor = "#2b1a2286";
+      texto.style.backgroundColor = "#2b1a22ff";
     });
     img.src = furretShiny;
   }
