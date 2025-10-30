@@ -61,9 +61,25 @@ p {
   }
   .furret-img {
     width: 50vw;
-    height: 40vh;
+    height: auto;
   }
   button {
     width: 40vw;
+  }
+}
+@media (max-width: 547px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+  .furret-img {
+    width: 70vw;
+    height: auto;
+  }
+  button {
+    width: 60vw;
+    font-size: 16px;
   }
 }/*# sourceMappingURL=style.css.map */
