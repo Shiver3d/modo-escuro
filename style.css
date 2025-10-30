@@ -29,7 +29,7 @@ header {
 
 button {
   color: white;
-  background-color: #a5316b;
+  background: linear-gradient(270deg, rgba(165, 49, 107, 0.5254901961), #f849a1, rgba(165, 49, 107, 0.5254901961));
   width: 20vw;
   height: 10vh;
   font-size: 20px;
@@ -50,4 +50,20 @@ p {
   display: inline-block;
   padding: 10px;
   border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .furret-img {
+    width: 50vw;
+    height: 40vh;
+  }
+  button {
+    width: 40vw;
+  }
 }/*# sourceMappingURL=style.css.map */
